@@ -3176,6 +3176,11 @@ get-value@^2.0.3, get-value@^2.0.6:
   resolved "https://registry.yarnpkg.com/get-value/-/get-value-2.0.6.tgz#dc15ca1c672387ca76bd37ac0a395ba2042a2c28"
   integrity sha512-Ln0UQDlxH1BapMu3GPtf7CuYNwRZf2gwCuPqbyG6pB8WfmFpzqcy4xtAaAMUhnNqjMKTiCPZG2oMT3YSx8U2NA==
 
+getsocial-react-native-sdk@^7.10.0:
+  version "7.10.0"
+  resolved "https://registry.yarnpkg.com/getsocial-react-native-sdk/-/getsocial-react-native-sdk-7.10.0.tgz#a81d08a0dfeb3210c5f774369e85910a8b39bfc5"
+  integrity sha512-cY35CEYUprkhQOp89Hr0HrCsYIxhORWqwKOK/whaK/cH3GMDDJywPfPTKHYh6XtPRw5WARKwMbaPvCYL7j01gA==
+
 glob-parent@^5.1.2:
   version "5.1.2"
   resolved "https://registry.yarnpkg.com/glob-parent/-/glob-parent-5.1.2.tgz#869832c58034fe68a4093c17dc15e8340d8401c4"

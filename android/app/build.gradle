@@ -1,4 +1,5 @@
 apply plugin: "com.android.application"
+apply plugin: "im.getsocial"
 
 import com.android.build.OutputFile
 import org.apache.tools.ant.taskdefs.condition.Os
@@ -130,6 +131,9 @@ def reactNativeArchitectures() {
 }
 
 android {
+    getsocial {
+        appId '6z0989TD6x6T1'
+    }
     ndkVersion rootProject.ext.ndkVersion
 
     compileSdkVersion rootProject.ext.compileSdkVersion
@@ -141,6 +145,12 @@ android {
         versionCode 1
         versionName "1.0"
         buildConfigField "boolean", "IS_NEW_ARCHITECTURE_ENABLED", isNewArchitectureEnabled().toString()
+
+        manifestPlaceholders = [
+            getsocial_scheme: "6z0989TD6x6T1", 
+            getsocial_hostName_0:"ambrsavings", 
+            getsocial_hostName_1:"ambrsavings"
+            ]
 
         if (isNewArchitectureEnabled()) {
             // We configure the NDK build only if you decide to opt-in for the New Architecture.
